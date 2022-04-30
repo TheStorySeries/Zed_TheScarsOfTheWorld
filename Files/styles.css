@@ -1,3 +1,8 @@
+@font-face {
+     font-family: Header;
+     src: url('Fonts/28 Days Later.ttf'); 
+}
+
 .center-image {
 	display: block;
 	margin-left: auto;
@@ -6,4 +11,11 @@
 
 .body-bg {
 	background-color: black
+}
+
+.Header {
+	font-family: Header;
+	color: white;
+	font-size: 250%	;
+	text-align: center;
 }
