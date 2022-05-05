@@ -1,9 +1,9 @@
 @font-face {
-     font-family: Header;
+     font-family: DaysLater;
      src: url('Fonts/28 Days Later.ttf'); 
 }
 
-.center-image {
+.center-img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -14,14 +14,94 @@
 }
 
 .Header {
-	font-family: Header;
-	color: white;
+	font-family: DaysLater;
+	color: darkgreen;
 	font-size: 250%	;
 	text-align: center;
+	text-shadow: 3px 3px palegreen
 }
 
 .links {
-	text-align: center;
 	font-size: 150%;
 	color: white
+}
+
+.epi-link {
+	color: lime;
+	font-size: 175%
+}
+
+.next-epi {
+	text-align: center;
+	font-size: 250%;
+	color: yellow;
+}
+
+.credits {
+	color: white;
+	text-align: right;
+}
+
+.stay-tuned {
+	color: gold; 
+	font-family: Courier New; 
+	font-size: 500%; 
+	text-align: center
+}
+
+/* Story Alignments */
+
+.epi-head {
+	text-align: center;
+	color: gold;
+	font-size: 200%;
+	text-shadow: 3px 3px red
+}
+
+.scene-head {
+	color: goldenrod;
+	font-size: 225%;
+	text-align: center;
+}
+
+.scene-under {
+	color: goldenrod
+}
+
+/* Story Names */
+
+.fredrick {
+	color: red
+}
+
+.johnson {
+	color: aqua
+}
+
+.narrator {
+	color: lime
+}
+
+.misc {
+	color: grey		
+}
+
+.piper {
+	color: palevioletred
+}
+
+.nelson {
+	color: lightsalmon
+}
+
+.peter {
+	color: lavender
+}
+
+.patrick {
+	color: palegreen
+}
+
+.story {
+	color : white;
 }

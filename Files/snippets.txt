@@ -1,0 +1,47 @@
+Scenes :
+		<u class="scene-under"><h1 class="scene-head">Blahhhhh</h1></u>
+
+Outline :
+
+<!DOCTYPE html>
+<html>
+
+	<link rel="stylesheet" type="text/css" href="../styles.css">
+
+<head>
+	<meta charset="utf-8">
+	<title> | Zed The Scars of the World</title>
+</head>
+
+<body class="body-bg">
+
+<!-- Heading -->
+	<a href="../../index.html"><img src="../Logo.png" width="400" height="210" class="center-img"></a>
+	<h1 class="chap-head">Chapter</h1>
+	<hr>
+
+<!-- Story Start -->
+
+	<div style="text-align: center">
+
+	<font size="-1">
+
+
+<!-- Next Chapter -->
+
+	<a href="" class="next-chap">Click for next Episode <---</a>
+
+
+	</font>
+
+	</div>
+
+<!-- Credits -->
+
+    <h3 class="credits">Story by Pradeep - Website by Sheik</h3>
+
+</body>
+</html>
+
+Credits :
+		<h3 class="credits">Story by Pradeep - Website by Sheik</h3>
