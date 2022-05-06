@@ -1,7 +1,21 @@
+/* Fonts */
+
 @font-face {
      font-family: DaysLater;
      src: url('Fonts/28 Days Later.ttf'); 
 }
+
+@font-face {
+	font-family: Manticore;
+	src: url("Fonts/Manticore.otf");
+}
+
+@font-face {
+	font-family: IntheWoods;
+	src: url("Fonts/Inthewood-Regular.ttf");
+}
+
+/* Essentials */
 
 .center-img {
 	display: block;
@@ -10,7 +24,7 @@
 }
 
 .body-bg {
-	background-color: black
+	background-color: black;
 }
 
 .Header {
@@ -18,35 +32,39 @@
 	color: darkgreen;
 	font-size: 250%	;
 	text-align: center;
-	text-shadow: 3px 3px palegreen
+	text-shadow: 3px 3px palegreen;
 }
 
 .links {
 	font-size: 150%;
-	color: white
+	color: white;
+	font-family: Manticore;
 }
 
 .epi-link {
 	color: lime;
-	font-size: 175%
+	font-size: 175%;
+	font-family: IntheWoods;
 }
 
 .next-epi {
 	text-align: center;
 	font-size: 250%;
 	color: yellow;
+	font-family: Manticore;
 }
 
 .credits {
 	color: white;
 	text-align: right;
+	font-family: Comic Sans MS;
 }
 
 .stay-tuned {
 	color: gold; 
 	font-family: Courier New; 
 	font-size: 500%; 
-	text-align: center
+	text-align: center;
 }
 
 /* Story Alignments */
@@ -55,53 +73,71 @@
 	text-align: center;
 	color: gold;
 	font-size: 200%;
-	text-shadow: 3px 3px red
+	text-shadow: 3px 3px red;
+	font-family: Manticore;
 }
 
 .scene-head {
 	color: goldenrod;
 	font-size: 225%;
 	text-align: center;
+	font-family: IntheWoods;
 }
 
 .scene-under {
-	color: goldenrod
+	color: goldenrod;
+}
+
+.music-start {
+	color: red;
+	text-align: center;
+	font-size: 150%;
+	font-family: Manticore;
 }
 
 /* Story Names */
 
 .fredrick {
-	color: red
+	color: red;
+	font-family: IntheWoods;
 }
 
 .johnson {
-	color: aqua
+	color: aqua;
+	font-family: IntheWoods;
 }
 
 .narrator {
-	color: lime
+	color: lime;
+	font-family: IntheWoods;
 }
 
 .misc {
-	color: grey		
+	color: grey;
+	font-family: IntheWoods;
 }
 
 .piper {
-	color: palevioletred
+	color: palevioletred;
+	font-family: IntheWoods;
 }
 
 .nelson {
-	color: lightsalmon
+	color: lightsalmon;
+	font-family: IntheWoods;
 }
 
 .peter {
-	color: lavender
+	color: lavender;
+	font-family: IntheWoods;
 }
 
 .patrick {
-	color: palegreen
+	color: palegreen;
+	font-family: IntheWoods;
 }
 
 .story {
 	color : white;
+	font-family: IntheWoods;
 }

@@ -6,7 +6,7 @@ Outline :
 <!DOCTYPE html>
 <html>
 
-	<link rel="stylesheet" type="text/css" href="../styles.css">
+	<link rel="stylesheet" type="text/css" href="../../styles.css">
 
 <head>
 	<meta charset="utf-8">
@@ -16,8 +16,18 @@ Outline :
 <body class="body-bg">
 
 <!-- Heading -->
-	<a href="../../index.html"><img src="../Logo.png" width="400" height="210" class="center-img"></a>
-	<h1 class="chap-head">Chapter</h1>
+	<a href="../../../index.html"><img src="../../Logo.png" width="400" height="210" class="center-img"></a>
+	<h1 class="epi-head">Episode</h1>
+
+	<center>
+	<audio controls loop >
+      <source src="" type="audio/mp3">
+         Your browser does not support the audio element.
+    </audio>
+	</center>
+
+    <h1 class="music-start">Click Above for Background Music</h1>
+
 	<hr>
 
 <!-- Story Start -->
@@ -29,7 +39,7 @@ Outline :
 
 <!-- Next Chapter -->
 
-	<a href="" class="next-chap">Click for next Episode <---</a>
+	<a href="" class="next-epi">Click for next Episode <---</a>
 
 
 	</font>
@@ -45,3 +55,13 @@ Outline :
 
 Credits :
 		<h3 class="credits">Story by Pradeep - Website by Sheik</h3>
+
+Music Add :
+	<center>
+	<audio controls loop >
+      <source src="../Music/" type="audio/mp3">
+         Your browser does not support the audio element.
+    </audio>
+	</center>
+
+    <h1 class="music-start">Click Above for Background Music</h1>
