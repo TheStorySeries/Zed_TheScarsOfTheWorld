@@ -15,6 +15,17 @@
 	src: url("Fonts/Inthewood-Regular.ttf");
 }
 
+@font-face {
+	font-family: Zombie Queen;
+	src: url("Fonts/Zombie Queen.ttf");
+}
+
+@font-face {
+	font-family: Population BB;
+	src: url("Fonts/Population BB.otf");
+}
+
+
 /* Essentials */
 
 .center-img {
@@ -28,11 +39,12 @@
 }
 
 .Header {
-	font-family: DaysLater;
-	color: darkgreen;
-	font-size: 250%	;
+	font-family: Population BB;
+	color: palegreen;
+	font-size: 300%	;
 	text-align: center;
-	text-shadow: 3px 3px palegreen;
+	letter-spacing: 2px;
+/*	text-shadow: 3px 3px palegreen;*/
 }
 
 .links {
@@ -44,7 +56,7 @@
 .epi-link {
 	color: lime;
 	font-size: 175%;
-	font-family: IntheWoods;
+	font-family: Manticore;
 }
 
 .next-epi {
@@ -57,12 +69,12 @@
 .credits {
 	color: white;
 	text-align: right;
-	font-family: Comic Sans MS;
+	font-family:'Coming Soon', cursive;
 }
 
 .stay-tuned {
 	color: gold; 
-	font-family: Courier New; 
+	font-family: 'Courier Prime', monospace; 
 	font-size: 500%; 
 	text-align: center;
 }
@@ -72,14 +84,15 @@
 .epi-head {
 	text-align: center;
 	color: gold;
-	font-size: 200%;
-	text-shadow: 3px 3px red;
-	font-family: Manticore;
+	font-size: 250%;
+	text-shadow: 5px 5px red;
+	font-family: Population BB;
+	letter-spacing: 2px;
 }
 
 .scene-head {
 	color: goldenrod;
-	font-size: 225%;
+	font-size: 240%;
 	text-align: center;
 	font-family: IntheWoods;
 }
@@ -92,52 +105,90 @@
 	color: red;
 	text-align: center;
 	font-size: 150%;
-	font-family: Manticore;
+	font-family: DaysLater;
+	letter-spacing: 1px;
 }
 
 /* Story Names */
 
 .fredrick {
 	color: red;
-	font-family: IntheWoods;
+	font-family: Manticore;
+	letter-spacing: 4px;
+	font-size: 90%;
 }
 
 .johnson {
 	color: aqua;
-	font-family: IntheWoods;
+	font-family: Manticore;
+	letter-spacing: 4px;
+	font-size: 90%;
 }
 
 .narrator {
-	color: lime;
-	font-family: IntheWoods;
+	padding: 10px;
+	border: 2px solid lime;
+	font-family: Zombie Queen;
+	color: white;	
+	letter-spacing: 4px;
+	font-size: 220%;
+}
+
+.descrip {
+	padding: 10px;
+	border: 2px solid red;
+	font-family: Zombie Queen;
+	color: white;	
+	letter-spacing: 4px;
+	font-size: 220%;
 }
 
 .misc {
 	color: grey;
-	font-family: IntheWoods;
+	font-family: Manticore;
+	letter-spacing: 4px;
+	font-size: 90%;
 }
 
 .piper {
 	color: palevioletred;
-	font-family: IntheWoods;
+	font-family: Manticore;
+	letter-spacing: 4px;
+	font-size: 90%;
 }
 
 .nelson {
 	color: lightsalmon;
-	font-family: IntheWoods;
+	font-family: Manticore;
+	letter-spacing: 4px;
+	font-size: 90%;
 }
 
 .peter {
-	color: lavender;
-	font-family: IntheWoods;
+	color: lightpink;
+	font-family: Manticore;
+	letter-spacing: 4px;
+	font-size: 90%;
 }
 
 .patrick {
 	color: palegreen;
-	font-family: IntheWoods;
+	font-family: Manticore;
+	letter-spacing: 4px;
+	font-size: 90%;	
 }
 
 .story {
 	color : white;
-	font-family: IntheWoods;
+	font-family: Zombie Queen;
+	letter-spacing: 4px;
+	font-size: 230%;
 }
+
+
+/* Online Font Importing */
+
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Courier+Prime:ital@1&display=swap')
+
+/*font-family: 'Coming Soon', cursive;
+font-family: 'Courier Prime', monospace;*/
