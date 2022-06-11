@@ -16,11 +16,6 @@
 }
 
 @font-face {
-	font-family: Zombie Queen;
-	src: url("Fonts/Zombie Queen.ttf");
-}
-
-@font-face {
 	font-family: Population BB;
 	src: url("Fonts/Population BB.otf");
 }
@@ -74,7 +69,7 @@
 
 .stay-tuned {
 	color: gold; 
-	font-family: 'Courier Prime', monospace; 
+	font-family: 'Roboto Mono', monospace;
 	font-size: 500%; 
 	text-align: center;
 }
@@ -85,9 +80,8 @@
 	text-align: center;
 	color: gold;
 	font-size: 250%;
-	text-shadow: 5px 5px red;
 	font-family: Population BB;
-	letter-spacing: 2px;
+	letter-spacing: 3px;
 }
 
 .scene-head {
@@ -128,18 +122,18 @@
 .narrator {
 	padding: 10px;
 	border: 2px solid lime;
-	font-family: Zombie Queen;
+	font-family: 'Roboto Mono', monospace;
 	color: white;	
-	letter-spacing: 4px;
+	letter-spacing: -1px;
 	font-size: 220%;
 }
 
 .descrip {
 	padding: 10px;
 	border: 2px solid red;
-	font-family: Zombie Queen;
+	font-family: 'Roboto Mono', monospace;
 	color: white;	
-	letter-spacing: 4px;
+	letter-spacing: -1px;
 	font-size: 220%;
 }
 
@@ -180,15 +174,15 @@
 
 .story {
 	color : white;
-	font-family: Zombie Queen;
-	letter-spacing: 4px;
+	font-family: Roboto Mono, monospace;
 	font-size: 230%;
+	letter-spacing: -1px;
 }
 
 
 /* Online Font Importing */
 
-@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Courier+Prime:ital@1&display=swap')
-
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Roboto+Mono&display=swap');
+	
 /*font-family: 'Coming Soon', cursive;
-font-family: 'Courier Prime', monospace;*/
+font-family: 'Roboto Mono', monospace;*/
